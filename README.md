@@ -1,4 +1,4 @@
-# Swapi Redux [![Build Status](https://travis-ci.org/IgorCIs/sudoque.svg?branch=master)](https://travis-ci.org/IgorCIs/sudoque)
+# Swapi Redux [![Build Status](https://travis-ci.org/IgorCIs/Swapi-Redux.svg?branch=master)](https://travis-ci.org/IgorCIs/Swapi-Redux)
 
 Builded with: StarWars API, react, redux
 
