@@ -1,9 +1,9 @@
-import types from './../constants/ActionTypes';
-import { INITIAL_ROUTE } from './../constants/RouterConstants';
+import types from './../constants/ActionTypes'
+import { INITIAL_ROUTE } from './../constants/RouterConstants'
 
 const initialState = {
   route: { ...INITIAL_ROUTE },
-};
+}
 
 const router = (state = initialState, action) => {
   switch (action.type) {
@@ -11,11 +11,11 @@ const router = (state = initialState, action) => {
       return {
         ...state,
         route: action.route,
-      };
+      }
 
     default:
-      return state;
+      return state
   }
-};
+}
 
-export default router;
+export default router

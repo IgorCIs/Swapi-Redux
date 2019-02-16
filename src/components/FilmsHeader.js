@@ -1,5 +1,5 @@
 import React from 'react'
-import FilmsHeaderList from './FilmsHeaderList';
+import FilmsHeaderList from './FilmsHeaderList'
 
 const FilmsHeader = ({ films }) => {
   return (

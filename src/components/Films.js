@@ -1,4 +1,4 @@
-import FilmsHeader from './FilmsHeader';
+import FilmsHeader from './FilmsHeader'
 import React, { Component } from 'react'
 
 class Films extends Component {

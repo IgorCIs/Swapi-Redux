@@ -1,6 +1,6 @@
-import { callApi } from "../libs/callApi";
-import { FILMS_URL } from "../constants/ApiConstants";
-import ActionTypes from "../constants/ActionTypes";
+import { callApi } from "../libs/callApi"
+import { FILMS_URL } from "../constants/ApiConstants"
+import ActionTypes from "../constants/ActionTypes"
 
 
 const fetchFilmNamesFail = error => 
@@ -21,11 +21,9 @@ const fetchFilmNamesSuccess = items =>
   })
 
 
-
 const fetchFilmNames = () => async dispatch => {
   dispatch(fetchFilmNamesRequest())
   const res = await callApi(FILMS_URL)
-  console.log(res.json.results)
 
   res.json ? 
     dispatch(fetchFilmNamesSuccess(res.json.results))
