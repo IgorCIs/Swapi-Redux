@@ -28,7 +28,11 @@ const films = (state = initialState, action) => {
             items: [],
             error: action.payload.error
           }
-        
+        case ActionTypes.CHOOSE_FILM:
+          return {
+            ...state,
+            active: action.id
+          }
           default:
             return state
     }

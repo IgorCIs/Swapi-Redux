@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import Films from '../components/Films';
-import { fetchFilmNames } from '../actions/FilmsActions';
+import { fetchFilmNames, setActiveFilm } from '../actions/FilmsActions';
 import { getFilms } from '../selectors/CommonSelectors';
 
 export default connect(
@@ -12,6 +12,10 @@ export default connect(
     ({
       fetchFilms() {
         dispatch(fetchFilmNames())
-      }  
+      },
+      setActiveFilm(id) {
+        // console.log(id)
+        dispatch(setActiveFilm(id))
+      }
     })
 )(Films)

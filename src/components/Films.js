@@ -7,12 +7,13 @@ class Films extends Component {
   }
   
   render() {
-    const { films } = this.props 
+    const { films, setActiveFilm } = this.props 
     console.log(films)
     return (
       <div className='films'>
         <FilmsHeader  
             films={films}
+            setActiveFilm={setActiveFilm}
         />
       </div>
     )

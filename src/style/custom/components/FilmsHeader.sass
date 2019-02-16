@@ -14,18 +14,30 @@
       @extend .loader
 
     &__item
-      border-left: 1px solid rgba($white, 0.5)
       font-weight: 200
-      border-right: 1px solid rgba($white, 0.5)
-
       color: rgba($white, 0.5)
       padding: 20px 20px
       cursor: pointer
       text-align: center
+      position: relative
       &.active
         color: $white
         border-color: $white
+        position: relative
+        border-width: 2px
+        &:after
+          border-bottom: 2px solid $white
+          border-width: 2px
+          border-color: $white
+
+      +after
+        height: 100%
+        border-left: 1px solid rgba($white, 0.5)
+        border-right: 1px solid rgba($white, 0.5)
+        width: 100%
+        position: absolute
+        bottom: 0
+        left: 0
 
       +hover
         color: $white
-        border-color: $white
