@@ -1,13 +1,13 @@
 {
-  "main.css": "/Swapi-Redux/static/css/main.c1a91c3a.chunk.css",
-  "main.js": "/Swapi-Redux/static/js/main.b6003ba1.chunk.js",
-  "main.js.map": "/Swapi-Redux/static/js/main.b6003ba1.chunk.js.map",
+  "main.css": "/Swapi-Redux/static/css/main.d6f5e977.chunk.css",
+  "main.js": "/Swapi-Redux/static/js/main.06f22832.chunk.js",
+  "main.js.map": "/Swapi-Redux/static/js/main.06f22832.chunk.js.map",
   "runtime~main.js": "/Swapi-Redux/static/js/runtime~main.42ed3cf1.js",
   "runtime~main.js.map": "/Swapi-Redux/static/js/runtime~main.42ed3cf1.js.map",
   "static/js/2.c6c500c8.chunk.js": "/Swapi-Redux/static/js/2.c6c500c8.chunk.js",
   "static/js/2.c6c500c8.chunk.js.map": "/Swapi-Redux/static/js/2.c6c500c8.chunk.js.map",
   "index.html": "/Swapi-Redux/index.html",
-  "precache-manifest.119150c5c82ca0e84d8013b184d8263a.js": "/Swapi-Redux/precache-manifest.119150c5c82ca0e84d8013b184d8263a.js",
+  "precache-manifest.fc33506cecbe8a08a2ac95010221d097.js": "/Swapi-Redux/precache-manifest.fc33506cecbe8a08a2ac95010221d097.js",
   "service-worker.js": "/Swapi-Redux/service-worker.js",
-  "static/css/main.c1a91c3a.chunk.css.map": "/Swapi-Redux/static/css/main.c1a91c3a.chunk.css.map"
+  "static/css/main.d6f5e977.chunk.css.map": "/Swapi-Redux/static/css/main.d6f5e977.chunk.css.map"
 }
