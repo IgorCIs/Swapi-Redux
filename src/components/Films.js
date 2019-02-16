@@ -8,6 +8,7 @@ class Films extends Component {
   
   render() {
     const { films } = this.props 
+    console.log(films)
     return (
       <div className='films'>
         <FilmsHeader  

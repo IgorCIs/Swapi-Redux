@@ -3,7 +3,8 @@ import ActionTypes from "../constants/ActionTypes";
 const initialState = {
   items: [],
   loading: false,
-  error: null
+  error: null,
+  active: null,
 }
 
 const films = (state = initialState, action) => {
@@ -18,7 +19,7 @@ const films = (state = initialState, action) => {
           return {
             ...state,
             loading: false,
-            items: action.payload.items
+            items: action.payload.items,
           }
         case ActionTypes.FETCH_FILMS_FAIL: 
           return {
@@ -27,7 +28,7 @@ const films = (state = initialState, action) => {
             items: [],
             error: action.payload.error
           }
-
+        
           default:
             return state
     }

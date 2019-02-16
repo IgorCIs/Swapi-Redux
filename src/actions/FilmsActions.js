@@ -20,9 +20,12 @@ const fetchFilmNamesSuccess = items =>
     payload: { items }
   })
 
+
+
 const fetchFilmNames = () => async dispatch => {
   dispatch(fetchFilmNamesRequest())
   const res = await callApi(FILMS_URL)
+  console.log(res.json.results)
 
   res.json ? 
     dispatch(fetchFilmNamesSuccess(res.json.results))

@@ -1,0 +1,31 @@
+.films-header
+  &__wrapper
+
+  &__list
+    border-bottom: 1px solid rgba($white, 0.5)
+    &__wrapper
+      justify-content: center
+      display: flex
+      align-items: center
+      @extend .container
+      
+    &__loading
+      font-size: 0
+      @extend .loader
+
+    &__item
+      border-left: 1px solid rgba($white, 0.5)
+      font-weight: 200
+      border-right: 1px solid rgba($white, 0.5)
+
+      color: rgba($white, 0.5)
+      padding: 20px 20px
+      cursor: pointer
+      text-align: center
+      &.active
+        color: $white
+        border-color: $white
+
+      +hover
+        color: $white
+        border-color: $white
