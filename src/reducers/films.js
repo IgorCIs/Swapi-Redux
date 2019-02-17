@@ -31,7 +31,7 @@ const films = (state = initialState, action) => {
         case ActionTypes.CHOOSE_FILM:
           return {
             ...state,
-            active: action.id
+            active: action.active
           }
           default:
             return state

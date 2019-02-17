@@ -20,10 +20,10 @@ const fetchFilmNamesSuccess = items =>
     payload: { items }
   })
 
-const setActiveFilm = id => 
+const setActiveFilm = active => 
   ({
     type: ActionTypes.CHOOSE_FILM,
-    id
+    active
   })
 
 const fetchFilmNames = () => async dispatch => {

@@ -13,9 +13,9 @@ export default connect(
       fetchFilms() {
         dispatch(fetchFilmNames())
       },
-      setActiveFilm(id) {
+      setActiveFilm(film) {
         // console.log(id)
-        dispatch(setActiveFilm(id))
+        dispatch(setActiveFilm(film))
       }
     })
 )(Films)

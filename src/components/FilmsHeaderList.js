@@ -10,7 +10,7 @@ const FilmsHeaderList = ({ setActiveFilm=f=>f, loading, error, items, active }) 
           <div className='films-header__list__loading'> loading </div> :
             error ? 'error' :   
               items.map((film, i) => (
-                <div key={i} onClick={() => setActiveFilm(film.episode_id)} className={`films-header__list__item ${active === film.episode_id ? 'active' : ''}`}>
+                <div key={i} onClick={() => setActiveFilm(film)} className={`films-header__list__item ${active && active.episode_id === film.episode_id ? 'active' : ''}`}>
                   <div className='films-header__list__item__name'> { film.title } </div>
                 </div>
               ))
